@@ -352,7 +352,7 @@ merged_na_data_numeric = merged_data[missing_numeric_columns].drop(['ResourceMob
 ### MICE imputation ###
 #### mice imputation ####
 
-st.markdown("**Imputation by Multivariate Imputation by Chained Equations (MICE)**")
+st.markdown("**Imputation by Multiple Imputation by Chained Equations (MICE)**")
 
 item='''The process uses multiple imputation techniques to fill in the missing data 
 and then combines the results from multiple imputations to produce a final imputed dataset.\nAfter performing the
