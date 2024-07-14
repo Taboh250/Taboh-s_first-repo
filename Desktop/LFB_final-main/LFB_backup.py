@@ -173,7 +173,7 @@ st.write(open_p + itemb + close_p, unsafe_allow_html=True)
 #### merging the mobit and incidence data ####
 st.markdown("#### Merging the incidence and mobilisation data")
 
-itemb='''Note that there are three features that are common to the mobilisation and 
+itemb=''' There are three features that are common to the mobilisation and 
 incidence datasets and these include the incidence number, CalYear(year of the call), HourOfCall (the hour of the call).
 The incidence number being the most unique shared identifier,  will be used to merge the two datasets. 
 However, to merge the two data frames, I had to harmonise the formats of the incidence numbers in the two
